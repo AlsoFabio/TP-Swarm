@@ -12,7 +12,7 @@ docker build -t nodejsswarm .
 docker stack deploy -c nodejs-service.yml node-service
 ```
 
-- el primer comando activa swarm en el dispositivo./n
+- el primer comando activa swarm en el dispositivo.
 - el segundo toma el servidor pequeño y lo hace una imagen llamada nodejsswarm para luego ser utilizada por el tercer comando.
 - el termer comando crea el servicio donde "nodejs-service.yml" es el nombre del archivo que contiene la configuracion y "node-service" es el nombre que le doy al mismo.
 
