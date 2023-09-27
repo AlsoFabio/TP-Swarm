@@ -1,5 +1,4 @@
-primero descargar el repositorio
-una vez descargado, abra una terminal en la ubicacion del trabajo y ejecute los siguientes comandos en orden:
+primero descargar el repositorio, una vez descargado, abra una terminal en la ubicacion del trabajo y ejecute los siguientes comandos en orden:
 ```
 docker swarm init
 docker build -t nodejsswarm .
